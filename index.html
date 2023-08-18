@@ -21,6 +21,7 @@
   placeholder="4.90"
   min="1"
   step="0.01"
+  required
   >
   <label for="">Gasolina(preço por litro)</label>
 
@@ -30,22 +31,33 @@
   placeholder="6.40"
   min="1"
   step="0.01"
+  required
   >
   <input class="button" type="submit" value="calcular">
 
 
 </form>
- 
+  <section id="content-result" class="result hide">
+
+<span id="text-result">Compensa ussar Alcool</span>
+<span id="Alcool-result">Alcool R$3.90</R13></span>
+
+<span id="Gasolina-result">Gasolina R$6.00</span>
+
+  </section> 
+
     </main>
+
     <div class="info">
     <span class="tooltip">veja como é feito o calculo</span>
     <a href="#">
-    <img class="info-img" src="./img/info.png" alt="info">
+    <img class="info-img" src="./img/info.png" alt="Descubra como é feito o calculo">
     </a>
 
 </div>
  <script src="./script.js"></script>
 
+  
     
 </body>
 </html>
